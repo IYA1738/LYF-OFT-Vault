@@ -1,13 +1,9 @@
-# Sample Hardhat Project
+# LYF Vault
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+The **LYF Vault** is the central treasury contract designed to securely hold and manage LYFToken within the LYF DeFi ecosystem.  
+It serves as the authorized source of token distribution for the project’s **cliff vesting** and **airdrop** contracts.  
+All operations are strictly governed by a **Timelock + Multisig** architecture to ensure transparency, delay protection, and decentralized control.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+**LYF Vault** 是 LYF DeFi 生态中的核心金库存储合约，用于安全托管与管理 **LYFToken**。  
+该金库作为代币分发的唯一来源，将在未来向 **锁仓合约（Cliff Vesting）** 与 **空投合约（Airdrop）** 分配代币。  
+所有敏感操作均在 **时间锁 + 多签治理** 的架构下执行，以保证资金安全与透明治理。
